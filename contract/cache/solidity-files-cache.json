@@ -1,0 +1,393 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/mac/hh-fcc/07&08-fund-me-fcc/07-hardhat-fund-me-fcc/contracts/exampleContracts/FunWithStorage.sol": {
+      "lastModificationDate": 1660294690668,
+      "contentHash": "fb2b99cdddf2cf83369573bf0698370a",
+      "sourceName": "contracts/exampleContracts/FunWithStorage.sol",
+      "solcConfig": {
+        "version": "0.8.8",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "FunWithStorage"
+      ]
+    },
+    "/Users/mac/hh-fcc/07&08-fund-me-fcc/07-hardhat-fund-me-fcc/contracts/FundMe.sol": {
+      "lastModificationDate": 1660294690667,
+      "contentHash": "47eb14bf3d43794f624d27a3e589c7d4",
+      "sourceName": "contracts/FundMe.sol",
+      "solcConfig": {
+        "version": "0.8.8",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../node_modules/@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol",
+        "./PriceConverter.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "FundMe"
+      ]
+    },
+    "/Users/mac/hh-fcc/07&08-fund-me-fcc/07-hardhat-fund-me-fcc/node_modules/@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol": {
+      "lastModificationDate": 1660294697554,
+      "contentHash": "611f626b2447ccff9ba5332460fd217f",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol",
+      "solcConfig": {
+        "version": "0.8.8",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AggregatorV3Interface"
+      ]
+    },
+    "/Users/mac/hh-fcc/07&08-fund-me-fcc/07-hardhat-fund-me-fcc/contracts/PriceConverter.sol": {
+      "lastModificationDate": 1660294690669,
+      "contentHash": "2a0726a43a53914d7a2d813f5a7a5996",
+      "sourceName": "contracts/PriceConverter.sol",
+      "solcConfig": {
+        "version": "0.8.8",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../node_modules/@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.8"
+      ],
+      "artifacts": [
+        "PriceConverter"
+      ]
+    },
+    "/Users/mac/hh-fcc/07&08-fund-me-fcc/07-hardhat-fund-me-fcc/contracts/test/MockV3Aggregator.sol": {
+      "lastModificationDate": 1660294690666,
+      "contentHash": "d67ae29ffcbb626470d5be3fea573bbe",
+      "sourceName": "contracts/test/MockV3Aggregator.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.6/tests/MockV3Aggregator.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": []
+    },
+    "/Users/mac/hh-fcc/07&08-fund-me-fcc/07-hardhat-fund-me-fcc/node_modules/@chainlink/contracts/src/v0.6/tests/MockV3Aggregator.sol": {
+      "lastModificationDate": 1660294697567,
+      "contentHash": "b1f27d8f04303e8c78cd057685d883f6",
+      "sourceName": "@chainlink/contracts/src/v0.6/tests/MockV3Aggregator.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/AggregatorV2V3Interface.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "MockV3Aggregator"
+      ]
+    },
+    "/Users/mac/hh-fcc/07&08-fund-me-fcc/07-hardhat-fund-me-fcc/node_modules/@chainlink/contracts/src/v0.6/interfaces/AggregatorV2V3Interface.sol": {
+      "lastModificationDate": 1660294697620,
+      "contentHash": "6b76a24083942363411bb0b83ffeb997",
+      "sourceName": "@chainlink/contracts/src/v0.6/interfaces/AggregatorV2V3Interface.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./AggregatorInterface.sol",
+        "./AggregatorV3Interface.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "AggregatorV2V3Interface"
+      ]
+    },
+    "/Users/mac/hh-fcc/07&08-fund-me-fcc/07-hardhat-fund-me-fcc/node_modules/@chainlink/contracts/src/v0.6/interfaces/AggregatorInterface.sol": {
+      "lastModificationDate": 1660294697624,
+      "contentHash": "0c9be74e354bca05abc54edfdc49607e",
+      "sourceName": "@chainlink/contracts/src/v0.6/interfaces/AggregatorInterface.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "AggregatorInterface"
+      ]
+    },
+    "/Users/mac/hh-fcc/07&08-fund-me-fcc/07-hardhat-fund-me-fcc/node_modules/@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol": {
+      "lastModificationDate": 1660294697621,
+      "contentHash": "57d487d5ebb80b57ceb68a4d9bd884e3",
+      "sourceName": "@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "AggregatorV3Interface"
+      ]
+    }
+  }
+}
